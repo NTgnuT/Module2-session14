@@ -1,0 +1,51 @@
+.container-login {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-login {
+  width: 600px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.form-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  font-weight: 600;
+}
+
+.text-err {
+  color: red;
+  font-style: italic;
+}
+
+.register-info {
+  display: flex;
+  gap: 20px;
+}
+
+.register-info-left {
+  width: 50%;
+}
+
+.register-info-right {
+  width: 50%;
+}
